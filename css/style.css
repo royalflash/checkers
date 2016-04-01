@@ -1,0 +1,303 @@
+body{
+
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+*{
+	margin: 0;
+	padding:0;
+}
+
+body{
+	background-color: lightblue;
+}
+.ba-checkers{
+	background-color: #fff;
+	position: relative;
+	margin: auto;
+	width: 80vmin;
+	height: 80vmin;
+	left: 0;
+	top: 30px;
+	right: 0;
+	bottom: 0;
+	border: 10px solid gray;
+}
+div{
+	width: 100%;
+	height: 12.5%;
+}
+.a{
+	position: absolute;
+	width: 12.5%;
+	height: 100%;
+}
+.a div:nth-child(2n){
+	background-color: black;
+}
+.a div:nth-child(2n+1){
+	background: white;
+}
+.b{
+	position: absolute;
+	left: 12.5%;
+	top: 0;
+	width:12.5%;
+	height: 100%;
+}
+.b div:nth-child(2n){
+	background-color: white;
+}
+.b div:nth-child(2n+1){
+	background-color: black;
+}
+.c {
+	position: absolute;
+	left:25%;
+	top:0;
+	width: 12.5%;
+	height: 100%;
+}
+.c div:nth-child(2n){
+	background-color: black;
+}
+.c div:nth-child(2n+1){
+	background-color: white;
+}
+.d{
+	position: absolute;
+	left:37.5%;
+	top:0;
+	width: 12.5%;
+	height: 100%;
+}
+.d div:nth-child(2n){
+	background-color: white;
+}
+.d div:nth-child(2n+1){
+	background-color: black;
+}
+.e {
+	position: absolute;
+	right:37.5%;
+	top:0;
+	width: 12.5%;
+	height: 100%;
+}
+.e div:nth-child(2n){
+	background-color: black;
+}
+.e div:nth-child(2n+1){
+	background-color: white;
+}
+.f {
+	position: absolute;
+	right: 25%;
+	top:0;
+	width: 12.5%;
+	height: 100%;
+}
+.f div:nth-child(2n){
+	background-color: white;
+}
+.f div:nth-child(2n+1){
+	background-color: black;
+}
+.g{
+	position: absolute;
+	right: 12.5%;
+	top:0;
+	width: 12.5%;
+	height: 100%;
+}
+.g div:nth-child(2n){
+	background-color: black;
+}
+.g div:nth-child(2n+1){
+	background-color: white;
+}
+.h{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width:12.5%;
+	height: 100%;
+}
+.h div:nth-child(2n){
+	background-color: white;
+}
+.h div:nth-child(2n+1){
+	background-color: black;
+}
+.ba-team1 {
+	position: absolute;
+	margin: 1%;
+	width: 10%;
+	height: 10%;
+	background: red;
+	border-radius: 50%;
+	box-shadow: 0 5px 0 rgba(0,255,0,.5);
+	transition: all .1s ease-in;
+	transition: all .1s ease-in;
+}
+.a2{
+	top:12.5%;
+}
+.b1{
+	top:0%;
+	left:12.5%;
+}
+.b3 {
+	top:25%;
+	left:12.5%;
+}
+.c2{
+	top:12.5%;
+	left:25%;
+}
+.d1{
+	top:0%;
+	left:37.5%;
+}
+.d3{
+	top:25%;
+	left:37.5%;
+}
+.e2{
+	top:12.5%;
+	right:37.5%;
+}
+.f1{
+	top:0%;
+	right:25%;
+}
+.f3{
+	top:25%;
+	right:25%;
+}
+.g2{
+	top:12.5%;
+	right:12.5%;
+}
+.h1{
+	top:0%;
+	right:0%;
+}
+.h3{
+	top:25%;
+	right:0%;
+}
+.ba-team2 {
+	position: absolute;
+	margin: 1%;
+	width: 10%;
+	height: 10%;
+	background: blue;
+	border-radius: 50%;
+	box-shadow: 0 5px 0 rgba(0,255,0,.5);
+	transition: all .1s ease-in;
+}
+.a8{
+	bottom: 0%;
+	left:0%;
+}
+.a6{
+	bottom: 25%;
+	left: 0%;
+}
+.b7{
+	bottom:12.5%;
+	left:12.5%;
+}
+.c8{
+	bottom:0;
+	left:25%;
+}
+.c6{
+	bottom:25%;
+	left:25%;
+}
+.d7{
+	bottom:12.5%;
+	left:37.5%;
+}
+.e8{
+	bottom:0%;
+	right:37.5%;
+}
+.e6{
+	bottom:25%;
+	right:37.5%;
+}
+.f7{
+	bottom:12.5%;
+	right:25%;
+}
+.g8{
+	bottom:0%;
+	right:12.5%;
+}
+.g6{
+	bottom:25%;
+	right:12.5%;
+}
+.h7{
+	bottom:12.5%;
+	right: 0;
+}
+.ba-team1:hover {
+	margin-top: -1%;
+	transition: all .1s ease-in;
+}
+.ba-team2:hover {
+	margin-bottom: 3%;
+	transition: all .1s ease-in;
+}
