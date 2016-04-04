@@ -184,8 +184,7 @@ div{
 	height: 10%;
 	background: red;
 	border-radius: 50%;
-	box-shadow: 0 5px 0 rgba(0,255,0,.5);
-	transition: all .1s ease-in;
+	box-shadow: 0 5px 3px rgba(0,255,0,.5);
 	transition: all .1s ease-in;
 }
 .a2{
@@ -242,7 +241,7 @@ div{
 	height: 10%;
 	background: blue;
 	border-radius: 50%;
-	box-shadow: 0 5px 0 rgba(0,255,0,.5);
+	box-shadow: 0 5px 3px rgba(0,255,0,.5);
 	transition: all .1s ease-in;
 }
 .a8{
